@@ -37,7 +37,7 @@ function atualizarLista(){
 };
 
 function sortearAmigo() {
-    if (amigos.length === 0) {
+    if (amigos.length === 1) {
         alert('Adicione mais um amigo para realizar o sorteio');
         return;
     }
