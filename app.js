@@ -14,6 +14,24 @@ function adicionarAmigo() {
         
     }
 
-    amigos.push(escolherAmigo)
-}
+    amigos.push(escolherAmigo);
+    limparCampo();
+    atualizarLista();
+};
 
+function limparCampo() {
+    escolherAmigo = document.querySelector('input')
+    escolherAmigo.value = '';
+};
+
+
+function atualizarLista(){
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = "";
+
+        for(let i = 0; i < amigos.length; i++){
+            let item = document.createElement("li");
+            item.textContent = amigos[i];
+            listaAmigos.appendChild(item);
+        }
+}
