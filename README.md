@@ -26,4 +26,4 @@ Depois de adicionar todos os seus amigos, clique no botão "Sortear amigo" e o s
 
 ** 📢
 Para realizar um novo sorteio, basta inserir outro nome no campo "Digite um nome" e clicar em "Adicionar" que a lista será zerada.
-** 📢
+📢**
